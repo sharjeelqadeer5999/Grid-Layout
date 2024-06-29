@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.grid-container{
+background-color: aquamarine;
+padding: 5px;
+display: grid;
+height: 112vh;
+width: 100vh;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 30px;
+}
+h5{
+    padding: 15px 0 5px 15px;
+}
+p{
+    font-size: 9px;
+    padding: 0 0 15px 15px;
+}
+figcaption{
+    color: white;
+    background-color: black;
+    margin-top: 84px;
+}
+.item1{
+    background-image: url(./red-image.jpg);
+    background-size: cover;
+}
+.item2{
+    background-image: url(./orange-image.jpg);
+    background-size: cover;
+}
+.item3{
+    background-image: url(./yellow-image.jpg);
+    background-size: cover;
+}
+.item4{
+    background-image: url(./purple-image.jpg);
+    background-size: cover;
+}
+.item5{
+    background-image: url(./yellow-image.jpg);
+    background-size: cover;
+    grid-column: 1 / span 2;
+}
+.item6{
+    background-image: url(./red-image.jpg);
+    background-size: cover;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item7{
+    background-image: url(./purple-image.jpg);
+    background-size: cover;
+    grid-column: 1 / span 3;
+}
+.item8{
+    background-image: url(./orange-image.jpg);
+    background-size: cover;
+}
+.item9{background-image: url(./yellow-image.jpg);
+    background-size: cover;
+    grid-column: 1 / span 4;
+}
+.item10{
+    background-image: url(./purple-image.jpg);
+    background-size: cover;
+}
+.item11{
+    background-image: url(./orange-image.jpg);
+    background-size: cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.item12{
+    background-image: url(./red-image.jpg);
+    background-size: cover;
+}
